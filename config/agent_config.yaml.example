@@ -1,0 +1,22 @@
+OPENAI_API_KEY: "sk-proj-..."
+GEMINI_API_KEY: "AIza..."
+GOOGLE_API_KEY: "AIza..."
+
+# App Config
+LOG_FILE_PATH: "app.log"
+logging_level: "INFO"
+
+# PostgreSQL — Olist
+POSTGRES_DB: "olist-ecommerce-db"
+POSTGRES_USER: "postgres"
+POSTGRES_PASSWORD: "your-password"
+POSTGRES_HOST: "localhost"
+POSTGRES_PORT: 5432
+
+# BigQuery Config
+GCP_PROJECT_ID: "your-gcp-project-id"
+BQ_DATASET: "olist_metadata"
+BQ_DD_TABLE: "data_dictionary_embeddings"
+BQ_JOIN_TABLE: "join_metadata"
+GCP_LOCATION: "asia-south1"
+GOOGLE_APPLICATION_CREDENTIALS: "config/your-service-account.json"

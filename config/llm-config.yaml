@@ -1,0 +1,28 @@
+# Embeddings — text-embedding-3-small (1536 dims, cost-efficient)
+embeddings:
+  default_service_provider: "OpenAI"
+  default_model: "text-embedding-3-small"
+
+# Heavy tasks — SQL generation, SQL correction, NL response, metadata Q&A
+llm_model:
+  default_service_provider: OpenAI
+  default_model: gpt-5.1
+  temperature: 0.0
+  max_tokens: 15000
+  max_retries: 2
+
+# Medium tasks — reserved tier (gpt-5-mini), available for future node assignments
+medium_llm:
+  default_service_provider: OpenAI
+  default_model: gpt-5-mini
+  temperature: 0.0
+  max_tokens: 4000
+  max_retries: 2
+
+# Extra light tasks — query routing, follow-up generation, chart selection
+light_llm:
+  default_service_provider: OpenAI
+  default_model: gpt-4o-mini
+  temperature: 0.0
+  max_tokens: 1000
+  max_retries: 2

@@ -1,0 +1,51 @@
+# ── Credentials & Secrets (NEVER commit these) ────────────────────────────
+.env
+config/*.json
+config/agent_config.yaml
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ───────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Logs & temp files ──────────────────────────────────────────────────────
+*.log
+app.log
+*.tmp
+
+# ── Data / output ─────────────────────────────────────────────────────────
+postgres-output/
+output/*.csv
+output/*.json
+data/temp/
+
+
+# ── IDE ────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

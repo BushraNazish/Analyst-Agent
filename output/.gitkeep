@@ -1,0 +1,2 @@
+# This file ensures the output/ directory is tracked by git.
+# The CSV and JSON result files themselves are git-ignored (see .gitignore).
