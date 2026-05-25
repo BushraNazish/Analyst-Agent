@@ -1,6 +1,6 @@
-# 🔍 Olist Text-to-SQL Analyst
+# 🔍 Analyst Analyst
 
-An AI-powered data analysis assistant that allows users to query the **Olist Brazilian E-commerce** dataset using natural, plain English. The application automatically translates questions into SQL, executes them securely, generates interactive visualizations, and provides deep analytical insights—all wrapped in a beautiful, responsive, Neo-brutalist web interface.
+An AI-powered data analysis assistant that allows users to query the **Olist Brazilian E-commerce** dataset using natural, plain English. The application automatically translates questions into SQL, executes them securely, generates interactive visualizations, and provides deep analytical insights-all wrapped in a beautiful, responsive, Neo-brutalist web interface.
 
 ![Landing Page](screenshots/1.Landing%20Page.png)
 
@@ -69,8 +69,8 @@ graph TD
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Olist-Text-To-SQL.git
-   cd Olist-Text-To-SQL
+   git clone https://github.com/yourusername/Analyst-Agent.git
+   cd Analyst-Agent
    ```
 
 2. **Set up a virtual environment (optional but recommended):**
@@ -109,4 +109,4 @@ The application will be accessible at `http://localhost:7860`.
 - **LLM Integration:** LangChain.
 
 ---
-*Text-to-SQL Agent Documentation*
+*Analyst Agent Documentation*
