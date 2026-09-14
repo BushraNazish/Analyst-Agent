@@ -1,4 +1,4 @@
-# 🔍 Analyst Analyst
+# 🔍 Analyst Agent
 
 An AI-powered data analysis assistant that allows users to query the **Olist Brazilian E-commerce** dataset using natural, plain English. The application automatically translates questions into SQL, executes them securely, generates interactive visualizations, and provides deep analytical insights-all wrapped in a beautiful, responsive, Neo-brutalist web interface.
 
